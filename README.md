@@ -3,6 +3,6 @@ Cette application va vous permettre de sauver votre position en prenant un point
 
 - Cliquez sur l'icone pour lancer l'acquisition (icone rouge clignote - enregistrement) (icone vert fixe = arrêt).
 
-- Appui long sur le bouton pour faire un reset du fichie 'slowlog.gpx'.
+- Appui long sur le bouton pour faire un reset du fichier 'slowlog.gpx'.
 
 - Le gps est démarré toutes les 20 minutes (de 7h à 21h00) et attend de faire un point pendant une minute.
