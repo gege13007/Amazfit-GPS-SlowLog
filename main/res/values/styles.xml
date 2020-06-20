@@ -1,0 +1,36 @@
+<resources>
+
+    <style name="myTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="myTit" parent="myTheme">
+        <item name="android:textColor">#ddd</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Subhead" parent="Base.TextAppearance.AppCompat.Subhead">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">0sp</item>
+        <item name="android:layout_marginTop">0sp</item>
+    </style>
+
+    <style name="myALERT" parent="myTheme">
+        <item name="android:textColor">#0f0</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingLeft">3dp</item>
+        <item name="android:layout_marginBottom">0sp</item>
+        <item name="android:layout_marginTop">0sp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:windowTitleStyle">@style/myTit</item>
+    </style>
+
+</resources>

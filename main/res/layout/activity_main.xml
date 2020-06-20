@@ -1,0 +1,60 @@
+<!--
+    Android Wear framework is not provided on the Pace, and thus everything must be done manually with scrolling views and large padding
+ -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:clickable="true"
+    android:clipToPadding="false"
+    android:keepScreenOn="true"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#10101010"
+        android:orientation="vertical"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_marginTop="5sp"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/counttxt"
+            android:layout_width="match_parent"
+            android:layout_height="19dp"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:text="0 points"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/runbutt"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="18sp"
+                android:background="@drawable/bouton_ok"
+                android:longClickable="true"
+                android:onClick="runcmd" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
